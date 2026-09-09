@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Installs Nginx and configures redirect and custom 404 page
+# Installs Nginx and configures redirect
 
 sudo apt update -y
 sudo apt install nginx -y
