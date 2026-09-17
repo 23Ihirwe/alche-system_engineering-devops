@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Installs Apache, starts the service, and creates the required web page
+
+apt-get update
+apt-get install -y apache2
+service apache2 start
+echo "Hello Holberton" > /var/www/html/index.html
